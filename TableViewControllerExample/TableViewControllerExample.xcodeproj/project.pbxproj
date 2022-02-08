@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE1D966727A4E78A0070AA54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D966627A4E78A0070AA54 /* AppDelegate.swift */; };
 		DE1D966927A4E78A0070AA54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D966827A4E78A0070AA54 /* SceneDelegate.swift */; };
 		DE1D966B27A4E78A0070AA54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D966A27A4E78A0070AA54 /* ViewController.swift */; };
 		DE1D966E27A4E78A0070AA54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1D966C27A4E78A0070AA54 /* Main.storyboard */; };
 		DE1D967027A4E7920070AA54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1D966F27A4E7920070AA54 /* Assets.xcassets */; };
 		DE1D967327A4E7920070AA54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1D967127A4E7920070AA54 /* LaunchScreen.storyboard */; };
-		DE1D967E27A4E7920070AA54 /* TableViewControllerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D967D27A4E7920070AA54 /* TableViewControllerExampleTests.swift */; };
-		DE1D968927A4E7920070AA54 /* TableViewControllerExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D968827A4E7920070AA54 /* TableViewControllerExampleUITests.swift */; };
+		DE5719FC27B271D3008E9A7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D966627A4E78A0070AA54 /* AppDelegate.swift */; };
+		DE571A0627B2A13E008E9A7E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE571A0527B2A13E008E9A7E /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DE1D966327A4E78A0070AA54 /* TableViewControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1D966627A4E78A0070AA54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE1D966827A4E78A0070AA54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DE1D966A27A4E78A0070AA54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +41,10 @@
 		DE1D966F27A4E7920070AA54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE1D967227A4E7920070AA54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE1D967427A4E7920070AA54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE1D967927A4E7920070AA54 /* TableViewControllerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewControllerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE1D967D27A4E7920070AA54 /* TableViewControllerExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerExampleTests.swift; sourceTree = "<group>"; };
-		DE1D967F27A4E7920070AA54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE1D968427A4E7920070AA54 /* TableViewControllerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewControllerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE1D968827A4E7920070AA54 /* TableViewControllerExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerExampleUITests.swift; sourceTree = "<group>"; };
-		DE1D968A27A4E7920070AA54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5719F927B26DB2008E9A7E /* TableViewControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE571A0527B2A13E008E9A7E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		DE835D3427B2B29F00ACC684 /* TableViewControllerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TableViewControllerExampleTests.xctest; path = "/Users/peipeiyu/Documents/NEU/Info_6350_smartphone_iOS/Smartphone-Spring2022/TableViewControllerExample/build/Debug-iphoneos/TableViewControllerExampleTests.xctest"; sourceTree = "<absolute>"; };
+		DE835D3527B2B29F00ACC684 /* TableViewControllerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TableViewControllerExampleUITests.xctest; path = "/Users/peipeiyu/Documents/NEU/Info_6350_smartphone_iOS/Smartphone-Spring2022/TableViewControllerExample/build/Debug-iphoneos/TableViewControllerExampleUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,20 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				DE1D966527A4E78A0070AA54 /* TableViewControllerExample */,
-				DE1D967C27A4E7920070AA54 /* TableViewControllerExampleTests */,
-				DE1D968727A4E7920070AA54 /* TableViewControllerExampleUITests */,
-				DE1D966427A4E78A0070AA54 /* Products */,
+				DE5719F927B26DB2008E9A7E /* TableViewControllerExample.app */,
 			);
-			sourceTree = "<group>";
-		};
-		DE1D966427A4E78A0070AA54 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DE1D966327A4E78A0070AA54 /* TableViewControllerExample.app */,
-				DE1D967927A4E7920070AA54 /* TableViewControllerExampleTests.xctest */,
-				DE1D968427A4E7920070AA54 /* TableViewControllerExampleUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		DE1D966527A4E78A0070AA54 /* TableViewControllerExample */ = {
@@ -106,26 +90,9 @@
 				DE1D966F27A4E7920070AA54 /* Assets.xcassets */,
 				DE1D967127A4E7920070AA54 /* LaunchScreen.storyboard */,
 				DE1D967427A4E7920070AA54 /* Info.plist */,
+				DE571A0527B2A13E008E9A7E /* TableViewCell.swift */,
 			);
 			path = TableViewControllerExample;
-			sourceTree = "<group>";
-		};
-		DE1D967C27A4E7920070AA54 /* TableViewControllerExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				DE1D967D27A4E7920070AA54 /* TableViewControllerExampleTests.swift */,
-				DE1D967F27A4E7920070AA54 /* Info.plist */,
-			);
-			path = TableViewControllerExampleTests;
-			sourceTree = "<group>";
-		};
-		DE1D968727A4E7920070AA54 /* TableViewControllerExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DE1D968827A4E7920070AA54 /* TableViewControllerExampleUITests.swift */,
-				DE1D968A27A4E7920070AA54 /* Info.plist */,
-			);
-			path = TableViewControllerExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +112,7 @@
 			);
 			name = TableViewControllerExample;
 			productName = TableViewControllerExample;
-			productReference = DE1D966327A4E78A0070AA54 /* TableViewControllerExample.app */;
+			productReference = DE5719F927B26DB2008E9A7E /* TableViewControllerExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DE1D967827A4E7920070AA54 /* TableViewControllerExampleTests */ = {
@@ -163,7 +130,7 @@
 			);
 			name = TableViewControllerExampleTests;
 			productName = TableViewControllerExampleTests;
-			productReference = DE1D967927A4E7920070AA54 /* TableViewControllerExampleTests.xctest */;
+			productReference = DE835D3427B2B29F00ACC684 /* TableViewControllerExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		DE1D968327A4E7920070AA54 /* TableViewControllerExampleUITests */ = {
@@ -181,7 +148,7 @@
 			);
 			name = TableViewControllerExampleUITests;
 			productName = TableViewControllerExampleUITests;
-			productReference = DE1D968427A4E7920070AA54 /* TableViewControllerExampleUITests.xctest */;
+			productReference = DE835D3527B2B29F00ACC684 /* TableViewControllerExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +182,7 @@
 				Base,
 			);
 			mainGroup = DE1D965A27A4E7890070AA54;
-			productRefGroup = DE1D966427A4E78A0070AA54 /* Products */;
+			productRefGroup = DE1D965A27A4E7890070AA54;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -258,8 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5719FC27B271D3008E9A7E /* AppDelegate.swift in Sources */,
+				DE571A0627B2A13E008E9A7E /* TableViewCell.swift in Sources */,
 				DE1D966B27A4E78A0070AA54 /* ViewController.swift in Sources */,
-				DE1D966727A4E78A0070AA54 /* AppDelegate.swift in Sources */,
 				DE1D966927A4E78A0070AA54 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +236,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE1D967E27A4E7920070AA54 /* TableViewControllerExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE1D968927A4E7920070AA54 /* TableViewControllerExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
