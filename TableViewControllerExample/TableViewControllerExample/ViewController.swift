@@ -33,6 +33,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         // control the table view
         tbl_View.delegate = self
         tbl_View.dataSource = self
+        tbl_View.rowHeight = UITableView.automaticDimension
+        tbl_View.estimatedRowHeight = 400
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
