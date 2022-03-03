@@ -18,11 +18,12 @@ class StockViewController: UIViewController {
     
 
   
-    @IBAction func addDBAction(_ sender: UIButton) {
+    @IBAction func addDBAction(_ sender: Any) {
         let stock = StockShort()
-           stock.symbol = "TSLA"
-           stock.price = 914.34
-           stock.volumn  = 274983745
+        stock.symbol = "BTS"
+        stock.date = "2020-09-22"
+        stock.gradingCompany = "Ｎamjoon"
+        stock.previousGrade = "Outperform"
    
            do{
                let realm = try Realm()

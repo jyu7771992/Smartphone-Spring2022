@@ -6,4 +6,4 @@
 //
 
 import Foundation
-let urlShortQuote = "https://financialmodelingprep.com/api/v3/quote-short/"
+let urlShortQuote = "https://financialmodelingprep.com/api/v3/grade/"
